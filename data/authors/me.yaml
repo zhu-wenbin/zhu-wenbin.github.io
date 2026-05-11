@@ -2,115 +2,88 @@ schema: hugoblox/author/v1
 slug: me
 is_owner: true
 name:
-  display:朱文彬
+  display: 朱文彬
   given: 文彬
   family: 朱
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
+  alternate: Wenbin Zhu
+  pronunciation: ''
   pronouns: he/him
 postnominals:
-  - PhD
-  - MIEEE
+  - Master's Student
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: "🔬"
+role: 临床检验诊断学硕士研究生
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  目前就读于中国医科大学附属第一医院，专注于临床检验诊断学研究。
+  研究方向涵盖宏病毒组、肠道病毒及噬菌体生物信息学分析。
+  在科研之外，我还担任 2025 届研究生组长及门诊志愿者，致力于将生物信息学技术应用于精准医疗。
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: 中国医科大学附属第一医院
+    url: https://www.cmu1h.com/
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
+    url: mailto:your-email@example.com  # 记得改回你真实的邮箱
+    label: 联系我
   - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
+    url: https://github.com/zhu-wenbin
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/  # 如果有的话可以填入
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - 宏病毒组 (Viromics)
+  - 肠道微生态 (Gut Microbiome)
+  - 噬菌体研究 (Bacteriophage)
+  - 生物信息学 (Bioinformatics)
+  - 临床检验诊断学
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
-    start: 2015-09-01
-    end: 2019-06-30
+  - degree: 临床检验诊断学 硕士
+    institution: 中国医科大学
+    start: 2023-09-01
+    end: 2026-06-30
     summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
+      主要从事肠道微生态与人类健康的关联研究。熟练运用 R、Python 及 Linux 环境进行大规模生物信息学数据分析。
+  - degree: 医学检验技术 学士
+    institution: 中国医科大学
+    start: 2018-09-01
+    end: 2023-06-30
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
-    start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+  - role: 2025届研究生组长
+    org: 中国医科大学附属第一医院
+    start: 2025-01-01
+    summary: 负责组织研究生学术交流及日常管理事务。
+  - role: 门诊志愿者
+    org: 中国医科大学附属第一医院
+    start: 2024-01-01
+    summary: 协助临床导诊工作，提升患者就医体验。
 
 skills:
-  - name: Technical Skills
+  - name: 生信技术栈
     items:
-      - label: Python
+      - label: R 语言 & 数据可视化
         level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
+      - label: Python (生信脚本)
         level: 4
-  - name: Research & Communication
+      - label: Linux/WSL 环境配置
+        level: 4
+      - label: 宏病毒组分析管线 (MEGAHIT/CheckV)
+        level: 4
+  - name: 临床技能
     items:
-      - label: Academic Writing
+      - label: 临床检验诊断
         level: 5
-      - label: Conference Presentations
+      - label: 实验室质量管理
         level: 4
-      - label: Grant Proposals
-        level: 4
-
-languages:
-  - name: English
-    level: 5
-    label: Native
-  - name: Spanish
-    level: 4
-    label: Fluent
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
-    icon: hero/trophy
+  - title: 第十一届艾滋病学术大会优秀壁报奖
+    awarder: 中国性病艾滋病防治协会
+    date: "2026-04-01"
+    summary: 展示了关于病毒组学的最新研究成果并获得学术界认可。
+  - title: 国际合作会议优秀壁报奖
+    awarder: 免疫、传统医学与重慢疾病精准医疗国际合作会议
+    date: "2026-04-15"
+    summary: 表彰在精准医疗领域的学术贡献。
